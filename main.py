@@ -28,9 +28,9 @@ def hello(request):
 
     import uuid
     uuid=str(uuid.uuid1())
-    project_id= 'elaborate-howl-285701'
+    project_id= '*************'
     location = 'us' # Format is 'us' or 'eu'
-    processor_id = '7edfadad4740f14b' # Create processor in Cloud Console
+    processor_id = '***********' # Create processor in Cloud Console
     gcs_input_uri = source_url
     gcs_output_uri = "gs://context_primary/Forms/Processed"
     gcs_output_uri_prefix = exact_file_name_without_ext+uuid+'.json'
